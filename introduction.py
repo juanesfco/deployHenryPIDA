@@ -8,3 +8,4 @@ st.markdown('## Títlo 1')
 st.sidebar.markdown('Partes del proyecto')
 
 st.write('ir al archivo del lado')
+
