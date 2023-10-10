@@ -33,7 +33,7 @@ with st.sidebar:
     tunits = st.selectbox('Choose a Unit for Disease Time',['Days','Hours'], 0)
     tunitsd = {'Days':24,'Hours':1}
     tunitsplot = st.selectbox('Choose a Time Unit for All Time Plots',['Year','Semester'], 0)
-    centerPlot = st.selectbox('Choose a Plot for the Center',['By Sex','Street Type','Map'], 0)
+    centerPlot = st.selectbox('Choose a Plot for the Center',['Map','Street Type','By Sex'], 0)
 
 # Load datasets
 df_hom = pd.read_csv('data/df_homicides.csv',parse_dates=['datetime'])
