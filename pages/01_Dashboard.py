@@ -322,7 +322,7 @@ with col7:
         col7.markdown(col7md1, unsafe_allow_html=True)
         st.bar_chart(df_st_f,x='TIPO_DE_CALLE',y='Homicides',height=692,color='#FFC436')
     elif centerPlot == 'Map':
-        col7md1 = "<h1 style='text-align: center; background-color:#191D88; font-size:15px;'>Hoomicide Map</h1>"
+        col7md1 = "<h1 style='text-align: center; background-color:#191D88; font-size:15px;'>Homicide Map</h1>"
         col7.markdown(col7md1, unsafe_allow_html=True)
         st.map(dflatlon,color='#FFC436',zoom=10.5,use_container_width=True)
     
