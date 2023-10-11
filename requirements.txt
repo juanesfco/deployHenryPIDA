@@ -8,3 +8,4 @@ streamlit_folium
 watchdog
 openpyxl
 xlrd
+streamlit_extras
